@@ -26,9 +26,9 @@ const projects: Record<string, Project> = {
   portfolio: {
     title: 'Portfolio Website',
     desc: 'This portfolio site, built with Next.js and Tailwind CSS, showcasing my projects and skills.',
-    tech: ['Next.js', 'React', 'Tailwind CSS', 'Typescript'],
+    tech: ['Next.js', 'React', 'Tailwind CSS', 'Typescript', 'Vercel'],
     github: 'https://github.com/FathanAbi/my-portofolio',
-    live: 'https://fathan-portfolio.vercel.app',
+    live: 'https://fathan-abi-portofolio.vercel.app/',
   },
   researchpaper: {
     title: 'Few-Shot Hyperspectral Image Classification with Contrastive Learning for Oil Spill Mapping',
