@@ -26,7 +26,7 @@ const projects: Record<string, Project> = {
     title: 'Portfolio Website',
     desc: 'This portfolio site, built with Next.js and Tailwind CSS, showcasing my projects and skills.',
     tech: ['Next.js', 'React', 'Tailwind CSS', 'Typescript'],
-    github: 'https://github.com/fathanabi/my-portfolio',
+    github: 'https://github.com/FathanAbi/my-portofolio',
     live: 'https://fathan-portfolio.vercel.app',
   },
   researchpaper: {
@@ -38,7 +38,7 @@ const projects: Record<string, Project> = {
   networking: {
     title: 'Networking Projects',
     desc: 'A collection of networking-related projects including client-server apps, socket programming, and network utilities.',
-    tech: ['Python', 'Sockets', 'TCP/IP', 'Wireshark'],
+    tech: ['WireShark', 'gns3', 'bind9', 'dhcp-server', 'apache2', 'cisco packet tracer', 'iptables', 'python', 'socket', 'RSA', 'DES'],
     // Here we will add multiple repositories
     github: [
       { name: 'WireShark', url: 'https://github.com/FathanAbi/Jarkom-Modul-1-D26-2023' },
@@ -46,6 +46,7 @@ const projects: Record<string, Project> = {
       { name: 'DHCP, webserver, reverse proxy', url: 'https://github.com/FathanAbi/Jarkom-Modul-3-D26-2023' },
       { name: 'Subnetting, Routing', url: 'https://github.com/FathanAbi/Jarkom-Modul-4-D26-2023' },
       { name: 'Firewall', url: 'https://github.com/FathanAbi/Jarkom-Modul-5-D26-2023' },
+      { name: 'client-server, Cryptosystem with RSA and DES', url: 'https://github.com/FathanAbi/KI_Tugas3/blob/main/client.py'}
     ],
   },
 }
