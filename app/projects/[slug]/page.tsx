@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import Link from "next/link"
 
 type Project = {
   title: string
@@ -116,12 +117,9 @@ export default async function ProjectDetail({
         )}
       </div>
 
-      <a
-        href="/projects"
-        className="text-blue-400 hover:underline hover:text-blue-300"
-      >
+      <Link href="/projects" className="text-blue-600 hover:underline">
         ← Back to Projects
-      </a>
+      </Link>
     </div>
   )
 }
