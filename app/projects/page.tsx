@@ -7,6 +7,11 @@ const projects = [
     slug: 'medishop',
   },
   {
+    title: 'ChatApps',
+    desc: 'Vue and PayloadCMS chatapps.',
+    slug: 'chatapps',
+  },
+  {
     title: 'Mobile Chatting Apps',
     desc: 'Mobile Chatting Apps',
     slug: 'mobile',
