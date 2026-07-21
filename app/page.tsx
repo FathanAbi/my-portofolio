@@ -3,14 +3,18 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gray-950 text-white px-4">
-      <h1 className="text-4xl sm:text-5xl font-bold text-center">Hi, I’m Fathan 👋</h1>
+      <h1 className="text-4xl sm:text-5xl font-bold text-center">
+        Hi, I’m Fathan 👋
+      </h1>
 
       <p className="mt-4 text-base sm:text-lg text-gray-300 max-w-xl text-center">
-        I am a fresh graduate in Informatics Engineering from ITS with end-to-end experience in the software
-        development lifecycle, from design to deployment. 
+        I am a fresh graduate in Informatics Engineering from ITS with end-to-end
+        experience in the software development lifecycle, from design to
+        deployment.
       </p>
 
       <div className="mt-8 flex flex-col sm:flex-row gap-4">
+        {/* Projects */}
         <Link
           href="/projects"
           className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-full text-white font-semibold text-center transition-all duration-300"
@@ -18,6 +22,32 @@ export default function Home() {
           View My Projects
         </Link>
 
+        {/* Resume / CV */}
+        <a
+          href="https://drive.google.com/drive/u/0/folders/1JQGDW9g-yQ9V--JAGYYHkiGKHwCebFp4"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 bg-green-600 hover:bg-green-700 rounded-full text-white font-semibold text-center transition-all duration-300 flex items-center justify-center gap-2"
+        >
+          {/* Document Icon */}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M9 12h6m-6 4h6M9 8h3m-6 12h12a2 2 0 002-2V8l-6-6H6a2 2 0 00-2 2v14a2 2 0 002 2z"
+            />
+          </svg>
+          View My Resume / CV
+        </a>
+
+        {/* GitHub */}
         <a
           href="https://github.com/fathanabi"
           target="_blank"
