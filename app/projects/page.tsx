@@ -2,6 +2,11 @@ import Link from 'next/link'
 
 const projects = [
   {
+    title: 'Website UMKM',
+    desc: 'Website Laravel untuk Mendukung UMKM.',
+    slug: 'laravelumkm',
+  },
+  {
     title: 'MediShop',
     desc: 'Laravel e-commerce for medical devices.',
     slug: 'medishop',

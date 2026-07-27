@@ -10,6 +10,13 @@ type Project = {
 }
 
 const projects: Record<string, Project> = {
+  laravelumkm: {
+    title: 'Website UMKM',
+    desc: 'An online UMKM frontpage to help UMKM.',
+    tech: ['Laravel', 'MySQL', 'nginx'],
+    github: 'https://github.com/FathanAbi/Arvotech',
+    live: 'http://103.103.21.102:50021/',
+  },
   medishop: {
     title: 'MediShop',
     desc: 'An online marketplace for medical devices built using Laravel and deployed using Docker.',
